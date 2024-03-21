@@ -18,13 +18,13 @@ func main() {
 }
 
 func withdraw() error {
-	time.Sleep(5 * time.Second)
+	time.Sleep(3 * time.Second)
 	fmt.Println("Withdraw Success")
 	return nil
 }
 
 func deposit() error {
-	time.Sleep(5 * time.Second)
+	time.Sleep(7 * time.Second)
 	fmt.Println("Deposit Success")
 	return nil
 }
